@@ -1,0 +1,645 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>國賓影城訂票</title>
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+  <!-- <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+  <script type="text/javascript" src="./dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="./dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./dist/css/bootstrap-theme.min.css">
+  <style type="text/css">
+  body,td,th {
+	color: #FFF;
+}
+  a:link {
+	color: #FFFFFF;
+}
+  a {
+	font-size: 18px;
+}
+  a:visited {
+	color: #000;
+}
+  a:active {
+	color: #000;
+}
+  a:hover {
+	color: #000000;
+}
+  </style>
+  <script>
+  $('#mytab a').click(function (e) {
+    e.preventDefault()
+
+
+    $(this).tab('show')
+  })
+
+  </script>
+
+</head> 
+<body> 
+
+<div id="mainpage">
+	<body background="img/bg.jpg" width=100% height=100% bgproperties=fixed>
+  <div data-role="header">
+    <img src=img/AmbassadorTheatres.png border=0 width=100% height=30%>
+  </div>
+  <script type="text/javascript"><!--
+      document.write("<font size=4 color=#FFFFFF><span id=\"yudan_clock\"><\/span></font>");
+      var now,years,months,dates,days,hours,minutes,timeValue;
+      function yudan_time(){
+      now = new Date();
+      years = now.getYear();
+      if (years < 2000) years = years + 1900;
+      months = now.getMonth() + 1;
+      dates = now.getDate();
+      var weekday=new Array(7)
+      weekday[0]="日"
+      weekday[1]="一"
+      weekday[2]="二"
+      weekday[3]="三"
+      weekday[4]="四"
+      weekday[5]="五"
+      weekday[6]="六"
+      days = weekday[now.getDay()];
+      hours = now.getHours();
+      minutes = now.getMinutes();
+      seconds = now.getSeconds();
+      timeValue = years + " 年";
+      timeValue += ((months < 10) ? " 0" : " ") + months + " 月";
+      timeValue += ((dates < 10) ? " 0" : " ") + dates + " 月";
+      timeValue += " [ 星期" + days + " ] ";
+      timeValue += ((hours < 10) ? " 0" : " ") + hours + " 時";
+      timeValue += ((minutes < 10) ? " 0" : " ") + minutes + " 分";
+      timeValue += ((seconds < 10) ? " 0" : " ") + seconds + " 秒";
+      document.getElementById("yudan_clock").innerHTML = timeValue;
+      setTimeout("yudan_time()",1000);}
+      yudan_time();
+  // --></script>
+  <ul id="mytab" class="nav nav-tabs">
+  <li class="active"><a href="#home" data-toggle="tab"><strong>Home</strong></a></li>
+  <li><a href="#tick" data-toggle="tab"><strong>訂票</strong></a></li>
+  <li><a href="#info" data-toggle="tab"><strong>電影資訊</strong></a></li>
+  </ul>
+  <div id="tabContent" class="tab-content">
+    <div class="tab-pane fade active in" id="home">
+      <h1>最新電影</h1>
+      <div class="row6">
+        <div class="col-md-10">
+          <div class="thumbnail">
+            <figure><img src="movieimg/AmericanHustle.jpg" width="280" height="400" alt="AmericanHustle" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>瞞天大佈局</b></font>
+              <p>
+                American Hustle<br/>
+                上映日期：2013-12-31<br/>
+                上映戲院：國賓大戲院、國賓影城@微風廣場、國賓影城@長春廣場、國賓影城@中和環球購物中心、國賓影城@台南國賓廣場、國賓影城@高雄義大世界<br/>
+                類　　型：犯罪、劇情<br/>
+                導　　演：《派特的幸福劇本》大衛歐羅素<br/>
+                演　　員：《派特的幸福劇本》珍妮佛勞倫斯、《派特的幸福劇本》布萊德利庫柏、《黑暗騎士》克里斯汀貝爾、《復仇者聯盟》瑞米雷納、《超人:鋼鐵英雄》艾美亞當絲<br/>
+                發行公司：龍祥<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/7xEPIYTH0qQ?hl=zh_TW&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/7xEPIYTH0qQ?hl=zh_TW&amp;version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+              <br/>
+              ★ 《黑暗騎士》三部曲億萬製片查爾斯洛文 +《00:30凌晨密令》才女製 片梅根艾麗森攜手監製。<br/>
+              ★名導大衛歐羅素繼《派特的幸福劇本》後，邀集堅強卡司陣容合作。<br/><br/>
+                
+              根據美國聯邦調查局（FBI）極受爭議的「釣魚執法」真實案件改編，原著劇本曾入選“好萊塢劇本黑名單”多年，最後在《黑暗騎士》和《00:30凌晨密令》兩位重量級製片合作下，由名導大衛歐羅素執導。<br/><br/>
+                
+              劇情根據80年代一樁政治醜聞改編。FBI雇傭特工假扮成阿拉伯富翁賄賂國會議員。結果多名美國參、眾議員與政府官員被指控貪污受賄。這項任務被稱作「針刺行動」，即著名的美國「釣魚執法案」。電影由克里斯汀貝爾飾演一名自大的國會議員，在FBI探員（布萊德利庫柏飾）設計下，成為汙點證人，演出一場爾虞我詐、貓捉老鼠的犯罪攻防戰。<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row5">
+        <div class="col-md-10 ">
+          <div class="thumbnail">
+            <figure><img src="movieimg/ParanormalActivityTheMarkedOnes.jpg" width="280" height="400" alt="ParanormalActivityTheMarkedOnes" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>鬼入鏡：詛咒</b></font>
+              <p>
+                ParanormalActivityTheMarkedOnes<br/>
+                上映日期：2013-1-3<br/>
+                上映戲院：全台國賓影城<br/>
+                類　　型：恐怖<br/>
+                導　　演：《恐怖社區》克里斯多福藍登<br/>
+                演　　員：安德魯賈各布斯、《限時翻供》理查卡布萊<br/>
+                發行公司：UIP<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/Y3BLpssELGA?version=3&amp;hl=zh_TW"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/Y3BLpssELGA?version=3&amp;hl=zh_TW" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object><br/>
+              《靈動：鬼影實錄》曾讓史蒂芬史匹柏驚呼：「這是我這輩子看過最恐怖的鬼片！」，而同系列電影《鬼入鏡：詛咒》將延續第一集的故事情節，由克里斯多福‧藍登（Christopher Landon）自編自導，《玩命法則》理查‧卡布萊 （Richard Cabral）領銜主演，為原作的拉丁版續集。
+美國加州的一個拉丁美裔社區，發生了一起離奇的死亡案件，於是不怕死的主角傑西跟朋友帶著手提攝影機潛近案發現場，卻發現屋裡有許多錄影帶以及各種神秘的宗教道具。後來，傑西陸續發現自己 身上有奇怪的「記號」，而且似乎擁有了神秘的能力，此時，他的家人和朋友要如何解救傑西…。<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row4">
+        <div class="col-md-10">
+          <div class="thumbnail">
+            <figure><img src="movieimg/RoomMate.jpg" width="280" height="400" alt="RoomMate" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>我的恐怖室友</b></font>
+              <p>
+                我的恐怖室友<br/>
+                Room Mate<br/>
+                上映日期：2014-01-10<br/>
+                上映戲院：全台國賓影城<br/>
+                類　　型：驚悚<br/>
+                導　　演：<br/>
+                演　　員：北川景子、深田恭子<br/>
+                發行公司：采昌<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/br7Z5JLhydE?hl=zh_TW&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/br7Z5JLhydE?hl=zh_TW&amp;version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object><br/>
+              荻尾春海(北川景子)，因為車禍住院，在醫院碰到護士西村麗子(深田恭子)，兩人成為好友，春海出院後更與麗子同住成為室友。 沒想到外表親切的麗子卻越來越奇怪，之後更發生了許多難以理解的事件，甚至還發展成為殺人事件。不過春海似乎也不是省油的燈，兩位室友之間的心計對決也就此展開。<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row3">
+        <div class="col-md-10">
+          <div class="thumbnail">
+            <figure><img src="movieimg/LastVegas.jpg" width="280" height="400" alt="LastVegas" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>賭城大丈夫</b></font>
+              <p>
+                Last Vegas<br/>
+                上映日期：2014-01-10<br/>
+                上映戲院：國賓影城@微風廣場<br/>
+                類　　型：劇情、喜劇<br/>
+                導　　演：《第三類奇蹟》強托特陶(Jon Turteltaub)<br/>
+                演　　員：《門當父不對》勞勃狄尼洛(Robert De Niro)、《華爾街：金錢萬歲》麥克道格拉斯(Michael Douglas Hernan Mendoza)、《黑暗騎士：黎明昇起》摩根佛里曼(Morgan Freeman)、《飯飯之交》凱文克萊(Kevin Kline)、《愛情限時簽》瑪麗史汀柏格( Mary Steenburgen)<br/>
+                發行公司：好好電影<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/ajYe1_LzO_c?hl=zh_TW&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ajYe1_LzO_c?hl=zh_TW&amp;version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object><br/>
+              人生七十才HIGH始？ 帥阿伯也能玩到趴！<br/><br/>
+                這是四個帥阿伯的瘋狂旅程，歐吉桑版「醉後大丈夫」！<br/><br/>
+                
+                歐吉桑1號「老風流」比利（麥克道格拉斯飾），是個從來不願安份定下來的情場浪子，沒想到臨老又入花叢，即將娶個三十歲的美嬌娘回家！他決定到賭城辦場瘋狂的單身派對。於是他力邀年輕時一起放肆青春的兄弟們，包括：歐吉桑2號「衝動男」派迪（勞勃狄尼洛飾），個性強悍老是動拳頭的硬漢；歐吉桑3號被「藥罐子」（摩根費里曼飾），被兒子管得死死的乖老爸；與歐吉桑4號「偷情男」山姆（凱文克萊飾），被老婆恩賜准他一夜風流的忠實老公。<br/><br/>
+                
+                四人起誓一起到賭城拉斯維加斯盡情狂歡！面對燈紅酒綠、衣香鬢影、脫衣辣妹，以及心臟都快要追不上節奏的派對，這四位加起來超過250歲的超級熟男，決定好好再活一次，重回青春無敵的熱血感覺！<br/><br/>
+                
+                《賭城大丈夫》由四位奧斯卡得主首度破天荒合作演出，加上擅長類型喜劇的導演強托特陶，搬演笑死人不償命的逗趣喜劇，外加深刻動人的男性友誼。看四位演技派巨星脫胎換骨、難得一次「起肖」豁出去的喜劇表演，這是一次好笑、好玩、好熱鬧，又man到不行的賭城之旅！有的時候，人生苦短，或許只要心隨意走，就能找到真正的快樂與感動。<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="col-md-10">
+          <div class="thumbnail">
+            <figure><img src="movieimg/FIRESTORM.jpg" width="280" height="400" alt="FIRESTORM" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>風暴</b></font>
+              <p>
+                FIRE STORM<br/>
+                上映日期：2013-12-31<br/>
+                上映戲院：全台國賓影城<br/>
+                類　　型：動作<br/>
+                導　　演：袁錦麟<br/>
+                演　　員：劉德華、姚晨、林家棟、胡軍、呂良偉<br/>
+                發行公司：華映娛樂<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/E0NDGjD9b9I?version=3&amp;hl=zh_TW"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/E0NDGjD9b9I?version=3&amp;hl=zh_TW" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object><br/>
+              警隊精英呂明哲 (劉德華 飾) 為逮捕犯罪團夥頭目曹楠(胡軍 飾)，處心積慮且不擇手段，就再到手之際竟被兒時好友陶成邦 (林家棟 飾) 攪局。陶為贏回對其品行徹底失望的女友燕冰 (姚晨 飾)，求呂為他捏造臥底身份。但就在風暴過後，二人卻驚覺更陷渾沌之中。<br/>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <div class="row1">
+        <div class="col-md-10 ">
+          <div class="thumbnail">
+            <figure><img src="movieimg/WalkingWithDinosaurs3D.jpg" width="280" height="400" alt="WalkingWithDinosaurs3D" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>與恐龍冒險3D暴</b></font>
+              <p>
+                Walking With Dinosaurs 3D<br/>
+                上映日期：2014-01-10<br/>
+                上映戲院：全台國賓影城<br/>
+                類　　型：動作、動畫<br/>
+                導　　演：尼爾南丁格爾(Neil Nightingale) 、貝瑞庫克(Barry Cook)<br/>
+                演　　員：查理羅伊(Charlie Rowe)、安格利萊斯(Angourie Rice)、賈斯汀隆(Justin Long)、卡爾厄本(Karl Urban)<br/>
+                發行公司：Catchplay<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/pshGOmoDg6s?hl=zh_TW&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/pshGOmoDg6s?hl=zh_TW&amp;version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object><br/>
+              ★影史首次以3D方式實景呈現恐龍時代的世界<br/>
+                ★改編自英國BBC大受歡迎同名電視影集「與恐龍共舞」<br/>
+                ★近億美金拍攝成本，讓觀眾感受身歷其境<br/>
+                ★年度3D動畫鉅獻，實景部分在阿拉斯加和紐西蘭實地拍攝，視覺效果讓人驚艷！<br/><br/>
+                
+                透過厚鼻龍派奇的雙眼，我們目睹曾雄霸地球的偉大生物大遷徙<br/>
+                在億萬年以前，地球被一群巨大生物所掌管。當時的地球，風光明媚，美不盛收。厚鼻龍派奇（查理羅伊 配音），以他小小的視野看著這個世界，年復一年，他也逐漸經過許多歷練成長茁壯。就在地球進入白堊紀後期，強壯的派奇，接起了爸爸的職位，成為新的領導人，沒想到卻遇上地球的大災難，他必須帶領著整個族群踏上冒險之旅，展開史上偉大的恐龍大遷徙。<br/><br/>
+                
+                穿越億萬年的時空，解開恐龍的神秘面紗<br/>
+                一位現代古生物學家（卡爾厄本 飾）為了進一步解開他曾挖到的一隻懼龍牙齒化石的故事，他帶著侄女和侄子一起到找到化石的地方，而就在他們專心挖掘的時候，飛來一隻神秘的黑烏鴉，而這名為艾力克斯的黑烏鴉也搖身一變成為一隻史前鳥，帶領我們踏入這趟偉大的旅程。艾力克斯帶著觀眾回到億萬年，緩緩道出他的好朋友厚鼻龍派奇如何從一隻小恐龍成長為整個恐龍族群的領導者，也一一解開了電影一開始被古生物學家找到的那個化石的故事…<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+            <div class="row0">
+        <div class="col-md-10 ">
+          <div class="thumbnail">
+            <figure><img src="movieimg/Hercules3Dthelegendbegins.jpg" width="280" height="400" alt="Hercules3Dthelegendbegins" class="img-rounded"></figure>
+            <div class="caption">
+              <font size=5><b>鋼鐵力士</b></font>
+              <p>
+                Hercules3D: the legend begins<br/>
+                上映日期：2014-01-10<br/>
+                上映戲院：國賓大戲院、全台國賓影城<br/>
+                類　　型：動作、冒險<br/>
+                導　　演：《終極警探2》雷尼漢林<br/>
+                演　　員：《暮光之城》凱蘭魯茲、《浴血戰士》連恩麥肯泰、《00:30凌晨密令》史考特艾金斯<br/>
+                發行公司：海樂影業<br/>
+              </p>
+              <object width="640" height="360"><param name="movie" value="http://www.youtube.com/v/iM6OXcmWaHM?hl=zh_TW&amp;version=3"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/iM6OXcmWaHM?hl=zh_TW&amp;version=3" type="application/x-shockwave-flash" width="640" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object><br/>
+              ★2014開春史詩動作鉅片，斥資千萬美金打造磅礡視覺震撼。<br/>
+                ★《300壯士》後，壯闊史詩新篇章，顛覆經典神話，剽悍嗜血出擊!<br/>
+                ★《浴血任務》《全面攻佔》特效團隊聯手結盟，全美由獅子門Liongate/Summit盛大發行。<br/><br/>
+                
+                海克力士，是希臘神話裡有名的半人半神的英雄，因此他一出生便力大無比。在戰爭喧鬧之際，父皇將她心愛的女子許配給他的兄長，更設計派遣海克力士率兵打仗；海克力士失望透頂，喪失鬥志，部隊潰不成軍戰敗淪為奴隸。經歷許久的顛沛流離，海克力士承受諸多苦難，也結交到許多盟友，沉潛多時後，他再度率領騎兵重返國境，奪回心愛的女子…<br/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="tick">
+    
+      <div align="center">
+        <select name="theater" style="width: 30%;" align="center">
+          <!--影城-->
+          <option selected="selected" value="">請選擇上映戲院</option>
+          <option value="84b87b82-b936-4a39-b91f-e88328d33b4e">國賓大戲院</option>
+          <option value="5c2d4697-7f54-4955-800c-7b3ad782582c">國賓影城@台北微風廣場</option>
+          <option value="453b2966-f7c2-44a9-b2eb-687493855d0e">國賓影城@台北長春廣場</option>
+          <option value="357633f4-36a4-428d-8ac8-dee3428a5919">國賓影城@中和環球購物中心</option>
+          <option value="ace1fe19-3d7d-4b7c-8fbe-04897cbed08c">國賓影城@台南國賓廣場</option>
+          <option value="ec07626b-b382-474e-be39-ad45eac5cd1c">國賓影城@高雄義大世界</option>
+          <option value="41aae717-4464-49f4-ac26-fec2d16acbd6">國賓影城@屏東環球購物中心</option>
+        </select>
+        <br/><br/>
+        <select name="movie" style="width: 30%;">
+          <!--電影-->
+          <option selected="selected" value="-">選擇電影</option>
+          <option value="(3D DIG E)FROZEN">(3D 數位 英)冰雪奇緣 (普遍級)</option>
+          <option value="(3D DIG)47 RONIN">(3D 數位)浪人 47 (輔導級)</option>
+          <option value="(3D DIG)FIRESTORM">(3D 數位)風暴 (限制級)</option>
+          <option value="(3D DIG)THE HOBBIT THE DESOLATION OF SMAUG">(3D 數位)哈比人 荒谷惡龍 (保護級)</option>
+          <option value="(4DX 3D)47 RONIN">(4DX 3D)浪人 47 (輔導級)</option>
+          <option value="(DIG C)FROZEN">(數位 國)冰雪奇緣 (普遍級)</option>
+          <option value="(DIG E)FROZEN">(數位 英)冰雪奇緣 (普遍級)</option>
+          <option value="(DIG)47 RONIN">(數位)浪人 47 (輔導級)</option>
+          <option value="(DIG)AMERICAN HUSTLE">(數位)瞞天大佈局 (輔導級)</option>
+          <option value="(DIG)BEYOND BEAUTY TAIWAN FROM ABOVE">(數位)看見台灣 (普遍級)</option>
+          <option value="(DIG)BLUE JASMINE">(數位)藍色茉莉 (保護級)</option>
+          <option value="(DIG)CAMPUS CONFIDENTIAL">(數位)愛情無全順 (保護級)</option>
+          <option value="(DIG)COMMITMENT">(數位)同窗生 (輔導級)</option>
+          <option value="(DIG)CRYING 100 TIMES">(數位)100次的哭泣 (普遍級)</option>
+          <option value="(DIG)ENDERS GAME">(數位)戰爭遊戲 (保護級)</option>
+          <option value="(DIG)ENGLISH VINGLISH">(數位)救救菜英文 (普遍級)</option>
+          <option value="(DIG)FIRESTORM">(數位)風暴 (限制級)</option>
+          <option value="(DIG)HOURS">(數位)搏命關頭 (保護級)</option>
+          <option value="(DIG)KIYOSU KAIGI">(數位)清須會議 (普遍級)</option>
+          <option value="(DIG)MAKE ME SHUDDER">(數位)這個高中沒有鬼 (輔導級)</option>
+          <option value="(DIG)PARANORMAL ACTIVITY 4">(數位)鬼入鏡 4 (輔導級)</option>
+          <option value="(DIG)PARANORMAL ACTIVITY THE MARKED ONE">(數位)鬼入鏡 詛咒 (輔導級)</option>
+          <option value="(DIG)THE BEST OFFER">(數位)寂寞拍賣師 (輔導級)</option>
+          <option value="(DIG)THE HOBBIT THE DESOLATION OF SMAUG">(數位)哈比人 荒谷惡龍 (保護級)</option>
+          <option value="(DIG)THE HUNGER GAMES CATCHING FIRE">(數位)飢餓遊戲 星火燎原 (保護級)</option>
+          <option value="(DIG)THE SECRET LIFE OF WALTER MITTY">(數位)白日夢冒險王 (普遍級)</option>
+          <option value="(DIG)THE WHITE STORM">(數位)掃毒 (限制級)</option>
+          <option value="(DIG)TWELVE NIGHTS">(數位)十二夜 (保護級)</option>
+          <option value="(GC DIG)47 RONIN">(GC 數位)浪人 47 (輔導級)</option>
+          <option value="(GC DIG)AMERICAN HUSTLE">(GC 數位)瞞天大佈局 (輔導級)</option>
+          <option value="(GC DIG)THE SECRET LIFE OF WALTER MITTY">(GC 數位)白日夢冒險王 (普遍級)</option>
+          <option value="(HFR 3D)THE HOBBIT THE DESOLATION OF SMAUG">(HFR 3D)哈比人 荒谷惡龍 (保護級)</option>
+          <option value="(IMAX 3D)THE HOBBIT THE DESOLATION OF SMAUG">(IMAX 3D)哈比人 荒谷惡龍 (保護級)</option>
+          <option value="(IMAX HFR 3D)THE HOBBIT THE DESOLATION OF SMAUG">(IMAX HFR 3D)哈比人 荒谷惡龍 (保護級)</option>
+        </select>
+        <br/><br/>
+        <select name="bookdate" style="width: 30%;">
+          <!--日期-->
+          <option selected="selected" value="-">選擇日期</option>
+          <option value="2014-1-1">1月 1 星期三</option>
+          <option value="2014-1-2">1月 2 星期四</option>
+          <option value="2014-1-3">1月 3 星期五</option>
+          <option value="2014-1-4">1月 4 星期六</option>
+          <option value="2014-1-5">1月 5 星期日</option>
+          <option value="2014-1-6">1月 6 星期一</option>
+          <option value="2014-1-7">1月 7 星期二</option>
+          <option value="2014-1-8">1月 8 星期三</option>
+          <option value="2014-1-9">1月 9 星期四</option>
+        </select>
+        <br/><br/>
+        <select name="booktime" style="width: 30%;">
+          <!--場次-->
+          <option>選擇場次時間</option>
+          <option>brabrabra</option>
+          <option>brabrabra</option>
+          <option>brabrabra</option>
+        </select>
+        <br/><br/>
+        <input type="submit" value="確認送出" onclick="self.location.href='bookSystem\\index.html'">
+        <input type="reset" value="取消">
+      </div>
+      <div id="ticksys"></div>
+    </div>
+    <div class="tab-pane fade" id="info">
+      <h1>場次查詢</h1>
+     	<table id="tblShowTimes" class="PrintShowTimesTable" border="0" style="width:640px;">
+	<tr>
+    	<td style="width:145px;"></td><td style="width:495px;"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(3D 數位 英)冰雪奇緣 (普遍級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">13:10, 17:30</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(3D 數位)浪人 47 (輔導級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">18:40</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(3D 數位)哈比人 荒谷惡龍 (保護級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">17:55</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位 國)冰雪奇緣 (普遍級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:10, 14:20, 16:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:50, 14:10, 18:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:50, 14:10, 18:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:50, 14:10, 18:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:30, 16:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:30, 16:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:30, 16:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:30, 16:50</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位 英)冰雪奇緣 (普遍級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">21:55, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:00, 15:20, 19:40, 21:55, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:00, 16:20, 20:40, 22:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:00, 16:20, 20:40, 22:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:00, 16:20, 20:40, 22:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 14:40, 19:00, 21:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 14:40, 19:00, 21:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 14:40, 19:00, 21:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 14:40, 19:00, 21:30</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)浪人 47 (輔導級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">22:15, 00:40</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 12:45, 15:05, 17:25, 19:50, 22:15, 00:40</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:40, 12:05, 14:30, 16:55, 19:20, 21:45, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:40, 12:05, 14:30, 16:55, 19:20, 21:45, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:40, 12:05, 14:30, 16:55, 19:20, 21:45, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:15, 12:40, 15:05, 17:30, 19:55, 22:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:15, 12:40, 15:05, 17:30, 19:55, 22:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:15, 12:40, 15:05, 17:30, 19:55, 22:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:15, 12:40, 15:05, 17:30, 19:55, 22:20</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)瞞天大佈局 (輔導級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">21:10, 23:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:10, 12:55, 15:35, 18:20, 21:10, 23:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 13:10, 15:50, 18:35, 21:20, 00:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 13:10, 15:50, 18:35, 21:20, 00:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 13:10, 15:50, 18:35, 21:20, 00:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:35, 13:15, 15:55, 18:35, 21:15, 23:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:35, 13:15, 15:55, 18:35, 21:15, 23:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:35, 13:15, 15:55, 18:35, 21:15, 23:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:35, 13:15, 15:55, 18:35, 21:15, 23:55</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)看見台灣 (普遍級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:00, 16:15, 20:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:45, 14:00, 18:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:45, 14:00, 18:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:45, 14:00, 18:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:05, 14:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:05, 14:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:05, 14:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:05, 14:30</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)戰爭遊戲 (保護級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">22:30, 00:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:35, 14:00, 18:10, 22:30, 00:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:40, 16:00, 20:20, 22:40, 01:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:40, 16:00, 20:20, 22:40, 01:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:40, 16:00, 20:20, 22:40, 01:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:10, 16:30, 18:50, 21:10, 23:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:10, 16:30, 18:50, 21:10, 23:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:10, 16:30, 18:50, 21:10, 23:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:10, 16:30, 21:10, 23:30</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)救救菜英文 (普遍級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:55, 12:35, 15:15, 21:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:10, 15:20, 20:25, 01:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:10, 15:20, 20:25, 01:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:10, 15:20, 20:25, 01:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:45, 15:50, 20:55, 00:05</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:45, 15:50, 20:55, 00:05</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:45, 15:50, 20:55, 00:05</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:45, 15:50, 20:55, 00:05</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)風暴 (限制級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">22:50, 01:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:40, 11:55, 14:10, 16:20, 18:30, 20:40, 22:50, 01:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:15, 14:25, 16:40, 18:50, 21:00, 23:10, 01:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:15, 14:25, 16:40, 18:50, 21:00, 23:10, 01:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:15, 14:25, 16:40, 18:50, 21:00, 23:10, 01:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 12:45, 15:00, 17:15, 19:25, 21:40, 23:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 12:45, 15:00, 17:15, 19:25, 21:40, 23:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 12:45, 15:00, 17:15, 19:25, 21:40, 23:50</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:30, 12:45, 15:00, 17:15, 19:25, 21:40, 23:50</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)鬼入鏡 詛咒 (輔導級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:40, 12:25, 14:20, 16:10, 18:00, 19:50, 21:40, 23:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:40, 12:25, 14:20, 16:10, 18:00, 19:50, 21:40, 23:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:40, 12:25, 14:20, 16:10, 18:00, 19:50, 21:40, 23:30</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:10, 13:00, 14:50, 16:40, 18:30, 20:20, 22:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:10, 13:00, 14:50, 16:40, 18:30, 20:20, 22:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:10, 13:00, 14:50, 16:40, 18:30, 20:20, 22:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">11:10, 13:00, 14:50, 16:40, 18:30, 20:20, 22:10</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)哈比人 荒谷惡龍 (保護級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">22:00, 01:05</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:30, 12:40, 15:50, 18:55, 22:00, 01:05</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:30, 12:35, 15:40, 18:45, 21:50, 00:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:30, 12:35, 15:40, 18:45, 21:50, 00:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">09:30, 12:35, 15:40, 18:45, 21:50, 00:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:50, 13:55, 17:00, 20:10, 23:15</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:50, 13:55, 17:00, 20:10, 23:15</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:50, 13:55, 17:00, 20:10, 23:15</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:50, 13:55, 17:00, 20:10, 23:15</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)飢餓遊戲 星火燎原 (保護級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">21:20, 00:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">21:20, 00:20</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">01:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">01:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">01:00</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">23:40</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">23:40</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">23:40</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">23:40</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)白日夢冒險王 (普遍級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 1 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">22:25, 23:40, 00:45</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 2 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:40, 13:00, 15:25, 17:45, 20:05, 22:25, 23:40, 00:45</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 12:40, 15:00, 17:20, 19:40, 22:00, 00:20, 01:25</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 12:40, 15:00, 17:20, 19:40, 22:00, 00:20, 01:25</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:20, 12:40, 15:00, 17:20, 19:40, 22:00, 00:20, 01:25</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:20, 14:45, 17:05, 19:30, 21:50, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:20, 14:45, 17:05, 19:30, 21:50, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:20, 14:45, 17:05, 19:30, 21:50, 00:10</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">10:00, 12:20, 14:45, 17:05, 19:30, 21:50, 00:10</td>
+	</tr><tr style="height:5px;">
+		<td colspan="2"></td>
+	</tr><tr>
+		<td class="PrintShowTimesFilm" colspan="2">(數位)掃毒 (限制級)</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 3 星期五</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:45, 17:50, 22:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 4 星期六</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:45, 17:50, 22:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 5 星期日</td><td class="PrintShowTimesSession" valign="top" colspan="1">12:45, 17:50, 22:55</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 6 星期一</td><td class="PrintShowTimesSession" valign="top" colspan="1">13:20, 18:20, 23:25</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 7 星期二</td><td class="PrintShowTimesSession" valign="top" colspan="1">13:20, 18:20, 23:25</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 8 星期三</td><td class="PrintShowTimesSession" valign="top" colspan="1">13:20, 18:20, 23:25</td>
+	</tr><tr>
+		<td class="PrintShowTimesDay" valign="top" colspan="1">1月 9 星期四</td><td class="PrintShowTimesSession" valign="top" colspan="1">13:20, 18:20, 23:25</td>
+	</tr>
+</table>
+
+
+      <div id="infosys"></div>
+    </div>
+  </div>
+</div>
